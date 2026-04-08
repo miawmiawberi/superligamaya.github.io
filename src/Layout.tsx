@@ -5,7 +5,7 @@ function Layout() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1><Link to="/" style={{ color: 'white', textDecoration: 'none' }}>Liga Sepak Bola</Link></h1>
+        <h1><Link to="/" style={{ color: 'white', textDecoration: 'none' }}>Liga Unmatched Ego</Link></h1>
         <nav>
           <Link to="/admin" style={{ color: 'white', textDecoration: 'none' }}>Admin</Link>
         </nav>
