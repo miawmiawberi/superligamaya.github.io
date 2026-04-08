@@ -1,0 +1,23 @@
+[debug] [2026-04-08T03:09:34.895Z] ----------------------------------------------------------------------
+[debug] [2026-04-08T03:09:34.898Z] Command:       /usr/local/nvm/versions/node/v24.14.1/bin/node /usr/local/node_packages/node_modules/.bin/firebase init
+[debug] [2026-04-08T03:09:34.898Z] CLI Version:   15.10.1
+[debug] [2026-04-08T03:09:34.899Z] Platform:      linux
+[debug] [2026-04-08T03:09:34.899Z] Node Version:  v24.14.1
+[debug] [2026-04-08T03:09:34.899Z] Time:          Wed Apr 08 2026 03:09:34 GMT+0000 (Coordinated Universal Time)
+[debug] [2026-04-08T03:09:34.899Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-04-08T03:09:34.902Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2026-04-08T03:09:34.902Z] >>> [apiv2][(partial)header] GET https://firebase-public.firebaseio.com/cli.json  x-goog-user-project=unmatched-e-group
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/razzlehazzleberry/football-league-site
+
+[debug] [2026-04-08T03:09:36.511Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-04-08T03:09:36.512Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
