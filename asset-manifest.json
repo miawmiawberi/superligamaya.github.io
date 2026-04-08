@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/superligamaya.github.io/static/css/main.66ed9b2d.css",
+    "main.js": "/superligamaya.github.io/static/js/main.e035aa8e.js",
+    "static/js/453.afc39053.chunk.js": "/superligamaya.github.io/static/js/453.afc39053.chunk.js",
+    "index.html": "/superligamaya.github.io/index.html",
+    "main.66ed9b2d.css.map": "/superligamaya.github.io/static/css/main.66ed9b2d.css.map",
+    "main.e035aa8e.js.map": "/superligamaya.github.io/static/js/main.e035aa8e.js.map",
+    "453.afc39053.chunk.js.map": "/superligamaya.github.io/static/js/453.afc39053.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66ed9b2d.css",
+    "static/js/main.e035aa8e.js"
+  ]
+}
