@@ -109,8 +109,27 @@ th {
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
+    padding: 10px;
   }
   .col {
     padding: 0;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  th, td {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+  .team-logo {
+    width: 15px;
+    height: 15px;
+  }
+  .match {
+    padding: 10px;
+  }
+  .match .score {
+    padding: 3px 7px;
+    font-size: 0.9rem;
   }
 }

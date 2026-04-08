@@ -2,10 +2,15 @@ import React from 'react';
 import './App.css';
 import { mockTeams, mockMatches } from './data/mockData';
 import { Team, Match } from './types';
+import { seedDatabase } from './data/seed';
 
 function App() {
   const [teams, setTeams] = React.useState<Team[]>(mockTeams);
   const [matches, setMatches] = React.useState<Match[]>(mockMatches);
+
+  const handleSeed = () => {
+    seedDatabase();
+  };
 
   const completedMatches = matches.filter(m => m.status === 'completed');
   const upcomingMatches = matches.filter(m => m.status === 'upcoming');
@@ -14,6 +19,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Liga Sepak Bola</h1>
+        <button onClick={handleSeed}>Seed Database</button>
       </header>
       <main className="container">
         <div className="col">
