@@ -2,10 +2,10 @@
 import { Team, Match } from '../types'; // Assuming types.ts will be created later
 
 export const mockTeams: Team[] = [
-  { id: 'team1', name: 'Dragons', logoColor: '#FF6347', points: 0, wins: 0, losses: 0, draws: 0, goalsFor: 0, goalsAgainst: 0, goalDifference: 0 },
-  { id: 'team2', name: 'Phoenixes', logoColor: '#FFD700', points: 0, wins: 0, losses: 0, draws: 0, goalsFor: 0, goalsAgainst: 0, goalDifference: 0 },
-  { id: 'team3', name: 'Griffins', logoColor: '#ADFF2F', points: 0, wins: 0, losses: 0, draws: 0, goalsFor: 0, goalsAgainst: 0, goalDifference: 0 },
-  { id: 'team4', name: 'Unicorns', logoColor: '#8A2BE2', points: 0, wins: 0, losses: 0, draws: 0, goalsFor: 0, goalsAgainst: 0, goalDifference: 0 },
+  { id: 'team1', name: 'Naga', logoColor: '#FF6347', points: 0, wins: 0, losses: 0, draws: 0, goalsFor: 0, goalsAgainst: 0, goalDifference: 0 },
+  { id: 'team2', name: 'Phoenix', logoColor: '#FFD700', points: 0, wins: 0, losses: 0, draws: 0, goalsFor: 0, goalsAgainst: 0, goalDifference: 0 },
+  { id: 'team3', name: 'Griffin', logoColor: '#ADFF2F', points: 0, wins: 0, losses: 0, draws: 0, goalsFor: 0, goalsAgainst: 0, goalDifference: 0 },
+  { id: 'team4', name: 'Unikorn', logoColor: '#8A2BE2', points: 0, wins: 0, losses: 0, draws: 0, goalsFor: 0, goalsAgainst: 0, goalDifference: 0 },
 ];
 
 export const mockMatches: Match[] = [

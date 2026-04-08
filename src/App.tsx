@@ -13,24 +13,24 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Football League</h1>
+        <h1>Liga Sepak Bola</h1>
       </header>
       <main className="container">
         <div className="col">
-          <h2>League Table</h2>
+          <h2>Klasemen Liga</h2>
           <div className="table-container">
             <table>
               <thead>
                 <tr>
                   <th>Pos</th>
-                  <th>Team</th>
-                  <th>W</th>
-                  <th>D</th>
-                  <th>L</th>
-                  <th>GF</th>
-                  <th>GA</th>
-                  <th>GD</th>
-                  <th>Pts</th>
+                  <th>Tim</th>
+                  <th>M</th>
+                  <th>S</th>
+                  <th>K</th>
+                  <th>GM</th>
+                  <th>GK</th>
+                  <th>SG</th>
+                  <th>Poin</th>
                 </tr>
               </thead>
               <tbody>
@@ -61,7 +61,7 @@ function App() {
         </div>
 
         <div className="col">
-          <h2>Recent Results</h2>
+          <h2>Hasil Terkini</h2>
           <div className="matches-container">
             {completedMatches.map(match => {
               const homeTeam = teams.find(t => t.id === match.homeTeamId);
@@ -76,7 +76,7 @@ function App() {
             })}
           </div>
 
-          <h2>Upcoming Fixtures</h2>
+          <h2>Jadwal Mendatang</h2>
           <div className="matches-container">
             {upcomingMatches.map(match => {
               const homeTeam = teams.find(t => t.id === match.homeTeamId);
